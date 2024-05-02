@@ -1,6 +1,6 @@
-package com.inditex.assessment.repository;
+package com.inditex.assessment.infrastructure.repository;
 
-import com.inditex.assessment.model.Price;
+import com.inditex.assessment.domain.model.Price;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

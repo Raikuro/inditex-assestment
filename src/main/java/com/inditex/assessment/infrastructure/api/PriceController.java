@@ -1,8 +1,8 @@
-package com.inditex.assessment.controller;
+package com.inditex.assessment.infrastructure.api;
 
-import com.inditex.assessment.model.Price;
-import com.inditex.assessment.mapper.PriceMapper;
-import com.inditex.assessment.service.PriceService;
+import com.inditex.assessment.domain.model.Price;
+import com.inditex.assessment.application.PriceService;
+import com.inditex.assessment.infrastructure.mapper.PriceMapper;
 import com.inditex.controller.PricesApi;
 import com.inditex.model.PriceResponse;
 import lombok.SneakyThrows;

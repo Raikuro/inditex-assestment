@@ -1,4 +1,4 @@
-package com.inditex.assessment.model;
+package com.inditex.assessment.domain.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.inditex.assessment.service;
+package com.inditex.assessment.application;
 
-import com.inditex.assessment.model.Price;
-import com.inditex.assessment.repository.H2JpaPriceRepository;
+import com.inditex.assessment.domain.model.Price;
+import com.inditex.assessment.infrastructure.repository.H2JpaPriceRepository;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -23,7 +23,7 @@ import static org.mockito.Mockito.when;
 class PriceServiceTest {
 
     @InjectMocks
-    private PriceService priceService;
+    private PriceServiceImpl priceService;
 
     @Mock
     private H2JpaPriceRepository priceRepository;

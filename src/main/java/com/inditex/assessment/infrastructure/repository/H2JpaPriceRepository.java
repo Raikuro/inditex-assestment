@@ -1,6 +1,6 @@
-package com.inditex.assessment.repository;
+package com.inditex.assessment.infrastructure.repository;
 
-import com.inditex.assessment.model.Price;
+import com.inditex.assessment.domain.model.Price;
 
 import java.time.OffsetDateTime;
 import java.util.Optional;

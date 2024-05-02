@@ -1,6 +1,6 @@
-package com.inditex.assessment.mapper;
+package com.inditex.assessment.infrastructure.mapper;
 
-import com.inditex.assessment.model.Price;
+import com.inditex.assessment.domain.model.Price;
 import com.inditex.model.PriceResponse;
 import org.mapstruct.Mapper;
 
